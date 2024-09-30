@@ -1,0 +1,4 @@
+Visual calculations, introduced as a preview feature with the February 2024 release of Power BI, aim to simplify the creation of calculations tied to a specific visual. Using visual calculations for simple calculations is straightforward.
+The VISUAL SHAPE clause adds a hierarchical structure to an otherwise flat table:
+VISUAL SHAPE defines one or two axes: ROWS, COLUMNS, or both. In the example, we have the definition of both ROWS and COLUMNS. For each axis, 
+Power BI defines the grouping columns (Department, Manager and Employee, in the example), the name of the column that indicates whether a row is a subtotal or not, and their sort order. The last clause of VISUAL SHAPE is the name of the Densification column, a column added to the table to indicate whether the rows have been created because of densification.
